@@ -1,6 +1,5 @@
-if game.Players.LocalPlayer.UserId == 2295678, 2407561932 then
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxciaz/VenyxUI/main/Reuploaded"))() --someone reuploaded it so I put it in place of the original back up so guy can get free credit.
-local venyx = library.new("BLACK MARKET GUI", 5013109572)
+local venyx = library.new("TXXYZ'S GUI", 5013109572)
 
     -- themes
     local themes = {
@@ -74,7 +73,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/slimethefemboy/script
 end)
 
 local page = venyx:addPage("Black Market", 6031075938)
-local section1 = page:addSection("Get any Black Market Item - Credits to TXXYZ")
+local section1 = page:addSection("Get any Black Market Item")
 section1:addButton("Black market Crate", function()
     game:GetService("ReplicatedStorage").GameEvents.Misk.ItemPurchase:FireServer("CrateT1_BM")
 end)
@@ -107,7 +106,3 @@ end)
     end, function()
     print("Changed Keybind")
     end)
-else
-game.Players.LocalPlayer:Kick("Denied (Don't try to leak this)")
-print("Denied")
-end
